@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>尔澈</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>http://example.com/</id>
+  <link href="http://example.com/" rel="alternate"/>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 尔澈</rights>
+  <subtitle>一介望洋兴叹的朝圣者耳</subtitle>
+  <title>pACEr</title>
+  <updated>2026-06-06T14:16:41.794Z</updated>
+  <entry>
+    <author>
+      <name>尔澈</name>
+    </author>
+    <category term="学习笔记" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    <category term="写作" scheme="http://example.com/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    <content>
+      <![CDATA[<p>Markdown 零基础文章写作完全指南</p><p>Markdown 是一种轻量级标记语言，语法简洁、上手门槛低。它适合日常写作、学习笔记、技术文档和博客文章。下面用几个最常见的例子，演示标题、代码块、图片和表格的正确写法。</p><h2 id="代码块"><a class="markdownIt-Anchor" href="#代码块"></a> 代码块</h2><p>代码块需要使用三个反引号包住，并在第一行写上语言类型。生成网页后，右上角会出现复制按钮和展开/收起按钮。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">hello</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Hello Markdown&quot;</span>)</span><br></pre></td></tr></table></figure><h2 id="图片"><a class="markdownIt-Anchor" href="#图片"></a> 图片</h2><p>图片语法是 <code>![图片备注](图片地址)</code>。如果使用本地图片，建议把图片放到 <code>source/images</code> 或 <code>source/_data/covers</code> 等会被 Hexo 复制到 <code>public</code> 的目录中，然后使用以 <code>/</code> 开头的站内路径。</p><p><img src="/covers/category-study.webp" alt="写作配图" /></p><h2 id="表格"><a class="markdownIt-Anchor" href="#表格"></a> 表格</h2><p>表格每一行都要使用 <code>|</code> 分隔列，表头下面必须有一行分隔线。不要在表格后面继续写没有 <code>|</code> 的散乱文本，否则 Markdown 可能会把后续内容解析进表格附近，显示就会乱。</p><table><thead><tr><th>语法类型</th><th>适用场景</th><th>难度</th></tr></thead><tbody><tr><td>标题语法</td><td>搭建文章框架</td><td>极低</td></tr><tr><td>列表语法</td><td>罗列核心要点</td><td>极低</td></tr><tr><td>表格语法</td><td>展示数据对比</td><td>低</td></tr></tbody></table><h2 id="写作规范"><a class="markdownIt-Anchor" href="#写作规范"></a> 写作规范</h2><ul><li>全文建议只使用一个一级标题，正文从二级标题开始分层。</li><li>标题、列表、引用、表格等语法符号后面要保留一个空格。</li><li>段落之间留空行，能明显提升文章可读性。</li><li>图片路径要是真实存在的本地路径或可访问的网络地址。</li></ul><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>写 Markdown 时，最容易出问题的地方通常不是主题样式，而是图片路径不存在、表格行缺少分隔符、代码块反引号没有成对闭合。先保证 Markdown 源文件格式正确，再让主题负责美化，页面就会稳定很多。</p>]]>
+    </content>
+    <id>http://example.com/2026/06/06/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="http://example.com/2026/06/06/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <published>2026-06-06T02:57:42.000Z</published>
+    <summary>
+      <![CDATA[<p>Markdown 零基础文章写作完全指南</p>
+<p>Markdown 是一种轻量级标记语言，语法简洁、上手门槛低。它适合日常写作、学习笔记、技术文档和博客文章。下面用几个最常见的例子，演示标题、代码块、图片和表格的正确写法。</p>
+<h2 id="代码块"><a]]>
+    </summary>
+    <title>第一篇文章</title>
+    <updated>2026-06-06T14:16:41.794Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>尔澈</name>
+    </author>
+    <category term="技术笔记" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="JavaScript" scheme="http://example.com/tags/JavaScript/"/>
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <content>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]>
+    </content>
+    <id>http://example.com/2026/06/06/hello-world/</id>
+    <link href="http://example.com/2026/06/06/hello-world/"/>
+    <published>2026-06-06T01:54:23.286Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a>]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-06-06T05:33:00.119Z</updated>
+  </entry>
+</feed>

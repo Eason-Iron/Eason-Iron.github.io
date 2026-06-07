@@ -1,0 +1,179 @@
+.sidebar-wrap {
+    padding: 34px 0 38px;
+}
+
+.sidebar-author img {
+    width: 112px;
+    height: 112px;
+    margin: 22px 20px;
+}
+
+.sidebar-author .sidebar-author-name {
+    font-size: 24px;
+    margin-top: 14px;
+}
+
+.sidebar-description {
+    font-size: 18px;
+    text-align: center;
+    max-width: 82%;
+}
+
+.sidebar-state {
+    padding: 26px 0;
+}
+
+.sidebar-state>div {
+    padding: 0 22px;
+}
+
+.sidebar-social {
+    margin-bottom: 22px;
+}
+
+.icon-bilibili::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url("/images/social/bilibili.svg") center / contain no-repeat;
+}
+
+.sidebar-menu-link-wrap {
+    width: 78%;
+    max-width: 320px;
+    min-height: 54px;
+    margin: 12px auto;
+    box-shadow: 0 0 16px var(--color-red-6-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.sidebar-menu-link-wrap .sidebar-menu-icon,
+.sidebar-menu-link-wrap .sidebar-menu-link {
+    padding: 0 !important;
+    line-height: 1;
+}
+
+.sidebar-menu-link-wrap .sidebar-menu-icon {
+    width: 1.4em;
+    height: 1.4em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-menu-link-wrap .sidebar-menu-icon::before {
+    line-height: 1;
+    transform-origin: center;
+}
+
+.sidebar-menu-link,
+.sidebar-menu-icon {
+    font-size: 20px;
+}
+
+.sidebar-widget {
+    margin-top: 34px;
+}
+
+.widget-wrap {
+    padding: 12px 10px 18px;
+}
+
+.widget-title {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+
+.tagcloud a {
+    margin: 7px 10px 0 0;
+    line-height: 1.4;
+}
+
+#aplayer,
+.aplayer {
+    border-radius: 14px !important;
+    background: var(--color-wrap) !important;
+    box-shadow: 0 0 18px var(--color-red-6-shadow);
+    overflow: hidden;
+}
+
+.aplayer .aplayer-info {
+    border-bottom: none !important;
+}
+
+.aplayer .aplayer-title {
+    color: var(--red-1);
+}
+
+.aplayer .aplayer-author,
+.aplayer .aplayer-time,
+.aplayer .aplayer-list ol li {
+    color: var(--grey-7);
+}
+
+.aplayer .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+    background: var(--red-5) !important;
+}
+
+.aplayer .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+    background: var(--red-1) !important;
+}
+
+.aplayer .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
+    background: var(--red-1) !important;
+}
+
+html,
+body {
+    cursor: url("/images/cursor/reimu-cursor-default.png") 8 8, auto !important;
+}
+
+a,
+button,
+.sidebar-menu-link-wrap,
+.sidebar-social-icon {
+    cursor: url("/images/cursor/reimu-cursor-pointer.png") 8 8, pointer !important;
+}
+
+input,
+textarea {
+    cursor: url("/images/cursor/reimu-cursor-text.png") 16 16, text !important;
+}
+
+.article-entry .code-area {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.article-entry .code-copy,
+.article-entry .code-expand {
+    pointer-events: auto;
+    cursor: url("/images/cursor/reimu-cursor-pointer.png") 8 8, pointer !important;
+}
+
+.article-entry div.table-wrapper {
+    margin: 18px 0 24px;
+    border: 1px solid rgba(64, 150, 255, 0.22);
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.article-entry div.table-wrapper table {
+    margin: 0;
+}
+
+.article-entry th,
+.article-entry td {
+    padding: 12px 16px !important;
+    white-space: nowrap;
+}
+
+.article-entry th {
+    background: rgba(64, 150, 255, 0.1);
+}
